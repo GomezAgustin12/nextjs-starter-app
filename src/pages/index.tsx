@@ -1,9 +1,9 @@
-import Navigation from "@/components/molecules/Navigation/Navigation";
+import Header from "@/components/organisms/Header";
 
 export default function Home() {
   return (
     <div>
-      <Navigation />
+      <Header />
     </div>
   );
 }

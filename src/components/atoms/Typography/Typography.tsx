@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useTheme } from "@/theme";
 
 export type TypographyProps<T extends React.ElementType = "p"> = {
   /**
@@ -25,9 +26,11 @@ export function Typography<T extends React.ElementType = "p">({
   className = "",
   ...rest
 }: TypographyProps<T>) {
+  const { theme } = useTheme();
+  const themeClass = theme === "dark" ? "text-gray-100" : "text-gray-900";
   const Component = as || "p";
   return (
-    <Component className={className} {...rest}>
+    <Component className={`${themeClass} ${className}`} {...rest}>
       {children}
     </Component>
   );
