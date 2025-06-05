@@ -1,6 +1,6 @@
 import React from "react";
-import NavLink from "../../atoms/NavLink/NavLink";
-import CartIndicator from "../../atoms/CartIndicator/CartIndicator";
+import NavLink from "../../atoms/NavLink";
+import CartIndicator from "../../atoms/CartIndicator";
 
 const Navigation: React.FC = () => {
   return (

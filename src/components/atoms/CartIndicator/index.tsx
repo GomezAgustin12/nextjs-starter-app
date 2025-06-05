@@ -1,5 +1,5 @@
 import React from "react";
-import IconButton from "@/components/atoms/IconButton/IconButton";
+import IconButton from "@/components/atoms/IconButton";
 
 // Simple useLocalStorage hook for cart
 export function useLocalStorage<T>(

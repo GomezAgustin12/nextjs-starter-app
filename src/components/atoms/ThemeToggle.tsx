@@ -1,6 +1,6 @@
 import React from "react";
 import { useTheme } from "@/theme";
-import IconButton from "@/components/atoms/IconButton/IconButton";
+import IconButton from "@/components/atoms/IconButton";
 
 const SunIcon = () => (
   <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20">

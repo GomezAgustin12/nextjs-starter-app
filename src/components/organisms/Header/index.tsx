@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import BrandBar from "@/components/atoms/BrandBar/BrandBar";
+import BrandBar from "@/components/atoms/BrandBar";
 import SearchInput from "@/components/atoms/SearchInput/SearchInput";
-import Navigation from "@/components/molecules/Navigation/Navigation";
+import Navigation from "@/components/molecules/Navigation";
 
 const Header: React.FC = () => {
   const [search, setSearch] = useState("");
